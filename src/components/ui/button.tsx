@@ -15,12 +15,17 @@ const buttonVariants = cva(
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        "calc-number": "bg-calculator-number text-foreground hover:bg-calculator-number-hover active:scale-95 transition-all duration-150 shadow-lg font-semibold text-lg",
+        "calc-operation": "bg-calculator-operation text-calculator-operation hover:bg-calculator-operation-hover active:scale-95 transition-all duration-150 shadow-lg font-semibold text-lg",
+        "calc-clear": "bg-calculator-clear text-foreground hover:bg-calculator-clear-hover active:scale-95 transition-all duration-150 shadow-lg font-semibold text-lg",
+        "calc-equals": "bg-calculator-equals text-calculator-equals hover:bg-calculator-equals-hover active:scale-95 transition-all duration-150 shadow-lg font-semibold text-lg",
       },
       size: {
         default: "h-10 px-4 py-2",
         sm: "h-9 rounded-md px-3",
         lg: "h-11 rounded-md px-8",
         icon: "h-10 w-10",
+        calculator: "h-16 w-full rounded-2xl",
       },
     },
     defaultVariants: {
